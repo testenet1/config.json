@@ -1,7 +1,7 @@
 { 
  "Version": "1.0.1", 
  "ReleaseNotes": "Nova Atualização Disponível - Claro Direct(Alguns DDD's)",
- "UrlUpdate": "https://raw.githubusercontent.com/testenet1/conflg.json/main/config.json",
+ "UrlUpdate": "https://raw.githubusercontent.com/testenet1/config.json/main/conflg.json",
  "Sms": "",
  "EmailFeedback": "testenetssh@gmail.com",
  "UrlContato": "https://wa.me/5521965555448",
