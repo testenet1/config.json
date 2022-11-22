@@ -1,5 +1,6 @@
 { 
- "Version": "2.3.1", "ReleaseNotes": "Nova Atualização Disponível - Claro Direct(Alguns DDD's)",
+ "Version": "2.3.1", 
+ "ReleaseNotes": "Nova Atualização Disponível - Claro Direct(Alguns DDD's)",
  "UrlUpdate": "https://raw.githubusercontent.com/Leosoulrock/config/main/conflg.json",
  "Sms": "",
  "EmailFeedback": "testenetssh@gmail.com",
