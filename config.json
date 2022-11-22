@@ -118,77 +118,7 @@
      "Info": "Tlsws" 
    }, 
    { 
-     "Name": "TIM TLS",
-     "FLAG": "tim",
-     "Payload": "GET wss://duvidas.ampli.com.br/ HTTP/1.1[crlf]Host:[app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
-     "SNI": "duvidas.ampli.com.br",
-     "TlsIP": "duvidas.ampli.com.br",
-     "ProxyIP": "",
-     "ProxyPort": "",
-     "Info": "Tlsws" 
-   }, 
-   { 
-     "Name": "TIM TLS 2",
-     "FLAG": "tim",
-     "Payload": "GET wss://terms.c6bank.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade:websocket[crlf]Connection:Keep-Alive[crlf][crlf]",
-     "SNI":"terms.c6bank.com.br",
-     "TlsIP": "terms.c6bank.com.br",
-     "ProxyIP": "",
-     "ProxyPort": "",
-     "Info": "Tlsws" 
-   }, 
-   { 
-     "Name": "TIM TLS 3",
-     "FLAG": "tim",
-     "Payload": "GET wss://auth.of.c6bank.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade:websocket[crlf]Connection:Keep-Alive[crlf][crlf]",
-     "SNI": "auth.of.c6bank.com.br",
-     "TlsIP": "auth.of.c6bank.com.br",
-     "ProxyIP": "",
-     "ProxyPort": "",
-     "Info": "Tlsws" 
-   },
-   { 
-     "Name": "TIM TLS 4",
-     "FLAG": "tim",
-     "Payload": "GET wss://texugo.alura.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade:websocket[crlf]Connection:Keep-Alive[crlf][crlf]",
-     "SNI": "texugo.alura.com.br",
-     "TlsIP": "texugo.alura.com.br",
-     "ProxyIP": "",
-     "ProxyPort": "",
-     "Info": "Tlsws" 
-   },
-   { 
-     "Name": "TIM TLS 5",
-     "FLAG": "tim",
-     "Payload": "GET wss://workplaceservices.surveymonkey.com HTTP/1.1[crlf]Host:[app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
-     "SNI": "workplaceservices.surveymonkey.com",
-     "TlsIP": "workplaceservices.surveymonkey.com",
-     "ProxyIP": "",
-     "ProxyPort": "",
-     "Info": "Tlsws" 
-   }, 
-   { 
-     "Name": "TIM TLS 6",
-     "FLAG": "tim",
-     "Payload": "GET wss://support.deezer.com/ HTTP/1.1[crlf]Host:[app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
-     "SNI": "support.deezer.com",
-     "TlsIP": "support.deezer.com",
-     "ProxyIP": "",
-     "ProxyPort": "",
-     "Info": "Tlsws" 
-   }, 
-   {
-     "Name": "TIM TLS 7 Credito Valido",
-     "FLAG": "tim",
-     "Payload": "GET wss://api.onesignal.com/ HTTP/1.1[crlf]Host:[app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
-     "SNI": "api.onesignal.com",
-     "TlsIP": "api.onesignal.com",
-     "ProxyIP": "",
-     "ProxyPort": "",
-     "Info": "Tlsws" 
-   }, 
-   { 
-     "Name": "TIM TLS 8 Credito Válido",
+     "Name": "TIM TLS (Credito Válido)",
      "FLAG": "tim",
      "Payload": "GET wss://api.sandbox.c6bank.com.br/ HTTP/1.1[crlf]Host:[app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
      "SNI": "api.sandbox.c6bank.com.br",
@@ -198,14 +128,34 @@
      "Info": "Tlsws" 
    }, 
    { 
-     "Name": "TIM DIRECT Akamai",
+     "Name": "TIM TLS 2 (LENTA)",
      "FLAG": "tim",
-     "Payload": "MERGE indexer10.sjc.northshore.akamai.com HTTP/2.0[crlf]Host: r03.spine101.lax01.fab.netarch.akamai.com [crlf]Connection: upgrade, Keep-Alive-Status 101[crlf]Upgrade: HTTP/2.0[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)@mateuscmf[crlf]Referer: http://www.google.com[crlf]",
-     "SNI": "",
-     "TlsIP": "",
-     "ProxyIP": "nu.sshls.tk",
-     "ProxyPort": "80",
-     "Info": "Proxy" 
+     "Payload": "GET wss://workplaceservices.surveymonkey.com HTTP/1.1[crlf]Host:[app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
+     "SNI": "workplaceservices.surveymonkey.com",
+     "TlsIP": "workplaceservices.surveymonkey.com",
+     "ProxyIP": "",
+     "ProxyPort": "",
+     "Info": "Tlsws" 
+   }, 
+   { 
+     "Name": "TIM TLS 3 (LENTA)",
+     "FLAG": "tim",
+     "Payload": "GET wss://support.deezer.com/ HTTP/1.1[crlf]Host:[app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
+     "SNI": "support.deezer.com",
+     "TlsIP": "support.deezer.com",
+     "ProxyIP": "",
+     "ProxyPort": "",
+     "Info": "Tlsws" 
+   }, 
+   {
+     "Name": "TIM TLS 4 (Credito Valido - LENTA)",
+     "FLAG": "tim",
+     "Payload": "GET wss://api.onesignal.com/ HTTP/1.1[crlf]Host:[app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
+     "SNI": "api.onesignal.com",
+     "TlsIP": "api.onesignal.com",
+     "ProxyIP": "",
+     "ProxyPort": "",
+     "Info": "Tlsws" 
    }, 
    { 
      "Name": "TIM DIRECT Modo Avião",
@@ -218,17 +168,7 @@
      "Info": "Proxy" 
    }, 
    { 
-     "Name": "TIM TLS Modo Avião",
-     "FLAG": "tim",
-     "Payload": "GET wss://duvidas.ampli.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade:Websocket[crlf]Connection:Keep-Alive[crlf][crlf]",
-     "SNI": "duvidas.ampli.com.br",
-     "TlsIP": "duvidas.ampli.com.br",
-     "ProxyIP": "",
-     "ProxyPort": "",
-     "Info": "Tlsws" 
-   }, 
-   { 
-     "Name": "TIM DIRECT Créditos Válidos",
+     "Name": "TIM DIRECT Créditos Válidos AM",
      "FLAG": "tim",
      "Payload": "GET / HTTP/1.1[crlf]Host:[random=d225b5hzy03mwb.cloudfront.net;d3rp37g4j5qmsu.cloudfront.net][crlf]Upgrade:Websocket[crlf]Connection:Upgrade[crlf][crlf]",
      "SNI": "",
@@ -238,7 +178,7 @@
      "Info": "Proxy" 
    },
    { 
-     "Name": "TIM TLS Créditos Válidos",
+     "Name": "TIM TLS Créditos Válidos AM",
      "FLAG": "tim", 
      "Payload": "GET / HTTP/1.1[crlf]Host:[random=d225b5hzy03mwb.cloudfront.net;d3rp37g4j5qmsu.cloudfront.net][crlf]Upgrade:Websocket[crlf]Connection:Upgrade[crlf][crlf]",
      "SNI": "d2mgshajq5bsl0.cloudfront.net",
