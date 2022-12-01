@@ -1,6 +1,6 @@
 { 
- "Version": "1.0.3", 
- "ReleaseNotes": "Nova Atualização Disponível - Vivo TLS(Todos os DDD's e Claro Direct 4 (Todos os DDD's) adicionada. Atualização dos termos de uso",
+ "Version": "1.0.4", 
+ "ReleaseNotes": "Nova Atualização Disponível - Vivo Direct Nova(Todos os DDD's) adicionada.",
  "UrlUpdate": "https://raw.githubusercontent.com/testenet1/config.json/main/conflg.json",
  "Sms": "",
  "EmailFeedback": "testenetssh@gmail.com",
@@ -49,12 +49,12 @@
      "Info": "Tlsws" 
    }, 
    { 
-     "Name": "VIVO DIRECT (Todos os DDDs)",
+     "Name": "VIVO DIRECT NOVA (Todos os DDDs)",
      "FLAG": "vivo",
-     "Payload": "GET / HTTP/1.1[crlf]Host:[random=d225b5hzy03mwb.cloudfront.net;d3rp37g4j5qmsu.cloudfront.net][crlf]Upgrade:websocket[crlf]Connection:Upgrade[crlf][crlf]",
+     "Payload": "GET / HTTP/1.1[crlf]Host:[app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
      "SNI": "",
      "TlsIP": "",
-     "ProxyIP": "planosvivointernet.com.br",
+     "ProxyIP": "162.159.130.62",
      "ProxyPort": "80",
      "Info": "Proxy" 
    }, 
@@ -64,12 +64,22 @@
      "Payload": "GET / HTTP/1.1[crlf]Host:[random=d225b5hzy03mwb.cloudfront.net;d3rp37g4j5qmsu.cloudfront.net][crlf]Upgrade:websocket[crlf]Connection:Upgrade[crlf][crlf]",
      "SNI": "",
      "TlsIP": "",
+     "ProxyIP": "planosvivointernet.com.br",
+     "ProxyPort": "80",
+     "Info": "Proxy" 
+   }, 
+   { 
+     "Name": "VIVO DIRECT 3 (Todos os DDDs)",
+     "FLAG": "vivo",
+     "Payload": "GET / HTTP/1.1[crlf]Host:[random=d225b5hzy03mwb.cloudfront.net;d3rp37g4j5qmsu.cloudfront.net][crlf]Upgrade:websocket[crlf]Connection:Upgrade[crlf][crlf]",
+     "SNI": "",
+     "TlsIP": "",
      "ProxyIP": "recarga.vivo.com.br",
      "ProxyPort": "80",
      "Info": "Proxy" 
    },
    { 
-     "Name": "VIVO DIRECT 3 (Todos os DDDs)",
+     "Name": "VIVO DIRECT 4 (Todos os DDDs)",
      "FLAG": "vivo",
      "Payload": "GET / HTTP/1.1[crlf]Host:[random=d225b5hzy03mwb.cloudfront.net;d3rp37g4j5qmsu.cloudfront.net][crlf]Upgrade:websocket[crlf]Connection:Upgrade[crlf][crlf]",
      "SNI": "",
@@ -79,7 +89,7 @@
      "Info": "Proxy" 
    },
    { 
-     "Name": "VIVO DIRECT 4 (Modo aviao)",
+     "Name": "VIVO DIRECT 5 (Modo aviao)",
      "FLAG": "vivo",
      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade:websocket[crlf]Connection:Keep-Alive[crlf][crlf]",
      "SNI": "",
