@@ -1,6 +1,6 @@
 { 
- "Version": "1.0.4", 
- "ReleaseNotes": "Nova Atualização Disponível - Vivo Direct Nova(Todos os DDD's) adicionada.",
+ "Version": "1.0.5", 
+ "ReleaseNotes": "Nova Atualização Disponível - Claro direct 5(Todos os DDD's) e Tim TLS 5 adicionadas",
  "UrlUpdate": "https://raw.githubusercontent.com/testenet1/config.json/main/conflg.json",
  "Sms": "",
  "EmailFeedback": "testenetssh@gmail.com",
@@ -159,6 +159,16 @@
      "Info": "Tlsws" 
    }, 
    { 
+     "Name": "TIM TLS 5",
+     "FLAG": "tim",
+     "Payload": "GET wss://songbird.cardinalcommerce.com/ HTTP/1.1[crlf]Host:[app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
+     "SNI": "songbird.cardinalcommerce.com",
+     "TlsIP": "198.217.251.250",
+     "ProxyIP": "",
+     "ProxyPort": "",
+     "Info": "Tlsws" 
+   }, 
+   { 
      "Name": "TIM DIRECT Modo Avião",
      "FLAG": "tim",
      "Payload": "HTTP/ [crlf][crlf]|[crlf]]]",
@@ -225,6 +235,16 @@
      "SNI": "",
      "TlsIP": "",
      "ProxyIP": "descomplica.com.br",
+     "ProxyPort": "80",
+     "Info": "Proxy" 
+   },
+   { 
+     "Name": "Claro Direct 5 (Todos os DDD's)",
+     "FLAG": "claro",
+     "Payload": "GET wss://[random=d225b5hzy03mwb.cloudfront.net;d3rp37g4j5qmsu.cloudfront.net]/ HTTP/1.1[crlf]Host: metadatadb.lab.smartcontent.clarobrasil.mobi[crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
+     "SNI": "",
+     "TlsIP": "",
+     "ProxyIP": "metadatadb.lab.smartcontent.clarobrasil.mobi",
      "ProxyPort": "80",
      "Info": "Proxy" 
    },
