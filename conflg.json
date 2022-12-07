@@ -1,6 +1,6 @@
 { 
- "Version": "1.0.8", 
- "ReleaseNotes": "Nova Atualização Disponível - Vivo direct Novo e Vivo Direct 2 Novo e Tim Direct adicionados",
+ "Version": "1.0.9", 
+ "ReleaseNotes": "Nova Atualização Disponível - Tim teste adicionado",
  "UrlUpdate": "https://raw.githubusercontent.com/testenet1/config.json/main/conflg.json",
  "Sms": "",
  "EmailFeedback": "testenetssh@gmail.com",
@@ -144,6 +144,16 @@
      "Payload": "GET wss://api.onesignal.com/ HTTP/1.1[crlf]Host:[app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
      "SNI": "api.onesignal.com",
      "TlsIP": "api.onesignal.com",
+     "ProxyIP": "",
+     "ProxyPort": "",
+     "Info": "Tlsws" 
+   }, 
+   { 
+     "Name": "TIM TLS TESTE",
+     "FLAG": "tim",
+     "Payload": "GET wss://sshls.tk HTTP/1.1[crlf]Host:[app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
+     "SNI": "sshls.tk",
+     "TlsIP": "workplaceservices.surveymonkey.com",
      "ProxyIP": "",
      "ProxyPort": "",
      "Info": "Tlsws" 
