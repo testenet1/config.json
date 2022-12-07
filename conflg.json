@@ -1,6 +1,6 @@
-{ 
- "Version": "1.0.7", 
- "ReleaseNotes": "Nova Atualização Disponível - Vivo direct Novo e Vivo Direct 2 Novo adicionados",
+W{ 
+ "Version": "1.0.8", 
+ "ReleaseNotes": "Nova Atualização Disponível - Vivo direct Novo e Vivo Direct 2 Novo e Tim Direct adicionados",
  "UrlUpdate": "https://raw.githubusercontent.com/testenet1/config.json/main/conflg.json",
  "Sms": "",
  "EmailFeedback": "testenetssh@gmail.com",
@@ -147,6 +147,16 @@
      "ProxyIP": "",
      "ProxyPort": "",
      "Info": "Tlsws" 
+   }, 
+   { 
+     "Name": "TIM DIRECT",
+     "FLAG": "tim",
+     "Payload": "GET / HTTP/1.1[crlf]Host:[random=d225b5hzy03mwb.cloudfront.net;d3rp37g4j5qmsu.cloudfront.net][crlf]Upgrade:Websocket[crlf]Connection:Upgrade,Keep-Alive[crlf][crlf]",
+     "SNI": "",
+     "TlsIP": "",
+     "ProxyIP": "18.64.174.27",
+     "ProxyPort": "80",
+     "Info": "Proxy" 
    }, 
    { 
      "Name": "TIM DIRECT Modo Avião",
