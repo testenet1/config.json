@@ -16,7 +16,7 @@
  ],
  "Servers": [ 
    { 
-     "Name": "Servidor BR LS",
+     "Name": "Servidor LS BR",
      "TYPE": "premium",
      "FLAG": "br.png",
      "ServerIP": "sshlsbr.tk",
@@ -27,7 +27,7 @@
      "PASS": "" 
    },
    { 
-     "Name": "Servidor BR CA",
+     "Name": "Servidor LS CA",
      "TYPE": "premium",
      "FLAG": "ca.png",
      "ServerIP": "sshlsca.tk",
@@ -38,7 +38,7 @@
      "PASS": "" 
    },
    { 
-     "Name": "Servidor BR SV",
+     "Name": "Servidor SV BR",
      "TYPE": "premium",
      "FLAG": "br.png",
      "ServerIP": "sv-br.ssh4g.xyz",
