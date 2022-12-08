@@ -1,5 +1,5 @@
 { 
- "Version": "1.1.1", 
+ "Version": "1.1.2", 
  "ReleaseNotes": "Nova Atualização Disponível - Tim TLS Nova e Vivo TLS Nova adicionados e Métodos Otimizados",
  "UrlUpdate": "https://raw.githubusercontent.com/testenet1/config.json/main/conflg.json",
  "Sms": "",
@@ -241,7 +241,7 @@
    { 
      "Name": "Claro Direct 4 (Todos os DDD's)",
      "FLAG": "claro",
-     "Payload": "BASELINE-CONTROL wss://[random=d225b5hzy03mwb.cloudfront.net;d3rp37g4j5qmsu.cloudfront.net]/ HTTP/1.1[crlf]Host: descomplica.com.br[crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
+     "Payload": "GET wss://[random=d225b5hzy03mwb.cloudfront.net;d3rp37g4j5qmsu.cloudfront.net]/ HTTP/1.1[crlf]Host: descomplica.com.br[crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
      "SNI": "",
      "TlsIP": "",
      "ProxyIP": "descomplica.com.br",
