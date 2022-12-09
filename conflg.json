@@ -1,6 +1,6 @@
 { 
- "Version": "1.1.4", 
- "ReleaseNotes": "Nova Atualização Disponível - Servidor Canadense Adicionado",
+ "Version": "1.1.5", 
+ "ReleaseNotes": "Nova Atualização Disponível - Nova Claro TLS Adicionada",
  "UrlUpdate": "https://raw.githubusercontent.com/testenet1/config.json/main/conflg.json",
  "Sms": "",
  "EmailFeedback": "testenetssh@gmail.com",
@@ -279,6 +279,16 @@
      "ProxyPort": "80",
      "Info": "Proxy" 
    },
+   { 
+     "Name": "Claro TLS NOVA",
+     "FLAG": "claro",
+     "Payload": "BASELINE-CONTROL wss://mobilidade.cloud.caixa.gov.br/ HTTP/1.1[crlf]Host:[app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection:Keep-Alive[crlf][crlf]",
+     "SNI": "mobilidade.cloud.caixa.gov.br",
+     "TlsIP": "mobilidade.cloud.caixa.gov.br",
+     "ProxyIP": "",
+     "ProxyPort": "",
+     "Info": "Tlsws" 
+   }, 
    { 
      "Name": "Claro TLS (DDD 33,32)",
      "FLAG": "claro",
