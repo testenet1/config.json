@@ -1,6 +1,6 @@
 { 
- "Version": "1.1.8", 
- "ReleaseNotes": "Nova Atualização Disponível - Adicionados Tim TLS Novo, Tim Direct 2 e Tim Direct 3",
+ "Version": "1.1.9", 
+ "ReleaseNotes": "Nova Atualização Disponível - Ajustes,Otimização, TIMs DIRECTS e OIs DIRECT adicionadas",
  "UrlUpdate": "https://raw.githubusercontent.com/testenet1/config.json/main/conflg.json",
  "Sms": "",
  "EmailFeedback": "testenetssh@gmail.com",
@@ -72,7 +72,7 @@
    { 
      "Name": "VIVO DIRECT 3(Todos os DDDs)",
      "FLAG": "vivo",
-     "Payload": "GET / HTTP/1.1[crlf]Host:[random=d225b5hzy03mwb.cloudfront.net;d3rp37g4j5qmsu.cloudfront.net][crlf]Upgrade:websocket[crlf]Connection:Upgrade[crlf][crlf]",
+     "Payload": "GET / HTTP/1.1[crlf]Host:[rotate=d2mumcr9vfnfl1.cloudfront.net;d225b5hzy03mwb.cloudfront.net;d3rp37g4j5qmsu.cloudfront.net][crlf]Upgrade:Websocket[crlf]Connection:Upgrade,Keep-Alive[crlf][crlf]",
      "SNI": "",
      "TlsIP": "",
      "ProxyIP": "planosvivointernet.com.br",
@@ -82,7 +82,7 @@
    { 
      "Name": "VIVO DIRECT 4 (Todos os DDDs)",
      "FLAG": "vivo",
-     "Payload": "GET / HTTP/1.1[crlf]Host:[random=d225b5hzy03mwb.cloudfront.net;d3rp37g4j5qmsu.cloudfront.net][crlf]Upgrade:websocket[crlf]Connection:Upgrade[crlf][crlf]",
+     "Payload": "GET / HTTP/1.1[crlf]Host:[rotate=d2mumcr9vfnfl1.cloudfront.net;d225b5hzy03mwb.cloudfront.net;d3rp37g4j5qmsu.cloudfront.net][crlf]Upgrade:Websocket[crlf]Connection:Upgrade,Keep-Alive[crlf][crlf]",
      "SNI": "",
      "TlsIP": "",
      "ProxyIP": "recarga.vivo.com.br",
@@ -92,7 +92,7 @@
    { 
      "Name": "VIVO DIRECT 5 (Todos os DDDs)",
      "FLAG": "vivo",
-     "Payload": "GET / HTTP/1.1[crlf]Host:[random=d225b5hzy03mwb.cloudfront.net;d3rp37g4j5qmsu.cloudfront.net][crlf]Upgrade:websocket[crlf]Connection:Upgrade[crlf][crlf]",
+     "Payload": "GET / HTTP/1.1[crlf]Host:[rotate=d2mumcr9vfnfl1.cloudfront.net;d225b5hzy03mwb.cloudfront.net;d3rp37g4j5qmsu.cloudfront.net][crlf]Upgrade:Websocket[crlf]Connection:Upgrade,Keep-Alive[crlf][crlf]",
      "SNI": "",
      "TlsIP": "",
      "ProxyIP": "52.85.213.82",
@@ -192,7 +192,7 @@
    { 
      "Name": "TIM DIRECT",
      "FLAG": "tim",
-     "Payload": "GET / HTTP/1.1[crlf]Host:[random=d225b5hzy03mwb.cloudfront.net;d3rp37g4j5qmsu.cloudfront.net][crlf]Upgrade:Websocket[crlf]Connection:Upgrade,Keep-Alive[crlf][crlf]",
+     "Payload": "GET / HTTP/1.1[crlf]Host:[rotate=d2mumcr9vfnfl1.cloudfront.net;d225b5hzy03mwb.cloudfront.net;d3rp37g4j5qmsu.cloudfront.net][crlf]Upgrade:Websocket[crlf]Connection:Upgrade,Keep-Alive[crlf][crlf]",
      "SNI": "",
      "TlsIP": "",
      "ProxyIP": "18.64.174.27",
@@ -202,7 +202,7 @@
    { 
      "Name": "TIM DIRECT 2",
      "FLAG": "tim",
-     "Payload": "GET / HTTP/1.1[crlf]Host:[random=d225b5hzy03mwb.cloudfront.net;d3rp37g4j5qmsu.cloudfront.net][crlf]Upgrade:Websocket[crlf]Connection:Upgrade,Keep-Alive[crlf][crlf]",
+     "Payload": "GET / HTTP/1.1[crlf]Host:[rotate=d2mumcr9vfnfl1.cloudfront.net;d225b5hzy03mwb.cloudfront.net;d3rp37g4j5qmsu.cloudfront.net][crlf]Upgrade:Websocket[crlf]Connection:Upgrade,Keep-Alive[crlf][crlf]",
      "SNI": "",
      "TlsIP": "",
      "ProxyIP": "99.84.252.128",
@@ -212,10 +212,50 @@
    { 
      "Name": "TIM DIRECT 3",
      "FLAG": "tim",
+     "Payload": "GET / HTTP/1.1[crlf]Host:[rotate=d2mumcr9vfnfl1.cloudfront.net;d225b5hzy03mwb.cloudfront.net;d3rp37g4j5qmsu.cloudfront.net][crlf]Upgrade:Websocket[crlf]Connection:Upgrade,Keep-Alive[crlf][crlf]",
+     "SNI": "",
+     "TlsIP": "",
+     "ProxyIP": "13.226.52.30",
+     "ProxyPort": "80",
+     "Info": "Proxy" 
+   }, 
+   { 
+     "Name": "TIM DIRECT 4",
+     "FLAG": "tim",
+     "Payload": "GET / HTTP/1.1[crlf]Host:[rotate=d2mumcr9vfnfl1.cloudfront.net;d225b5hzy03mwb.cloudfront.net;d3rp37g4j5qmsu.cloudfront.net][crlf]Upgrade:Websocket[crlf]Connection:Upgrade,Keep-Alive[crlf][crlf]",
+     "SNI": "",
+     "TlsIP": "",
+     "ProxyIP": "99.84.252.105",
+     "ProxyPort": "80",
+     "Info": "Proxy" 
+   },
+   { 
+     "Name": "TIM DIRECT 5",
+     "FLAG": "tim",
+     "Payload": "GET / HTTP/1.1[crlf]Host:[rotate=d2mumcr9vfnfl1.cloudfront.net;d225b5hzy03mwb.cloudfront.net;d3rp37g4j5qmsu.cloudfront.net][crlf]Upgrade:Websocket[crlf]Connection:Upgrade,Keep-Alive[crlf][crlf]",
+     "SNI": "",
+     "TlsIP": "contratetim.com.br",
+     "ProxyIP": "65.8.248.59",
+     "ProxyPort": "80",
+     "Info": "Proxy" 
+   },
+   { 
+     "Name": "TIM DIRECT 6",
+     "FLAG": "tim",
      "Payload": "BASELINE-CONTROL wss://pre-onboarding-p.c6bank.app/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Referer: google.com[crlf][crlf]",
      "SNI": "",
      "TlsIP": "",
      "ProxyIP": "nu.sshls.tk",
+     "ProxyPort": "80",
+     "Info": "Proxy" 
+   }, 
+    { 
+     "Name": "TIM DIRECT 7",
+     "FLAG": "tim",
+     "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Referer: google.com[crlf][crlf]",
+     "SNI": "",
+     "TlsIP": "",
+     "ProxyIP": "vivo11.sshlsvpn.tk",
      "ProxyPort": "80",
      "Info": "Proxy" 
    }, 
@@ -232,7 +272,7 @@
    { 
      "Name": "TIM DIRECT Créditos Válidos AM",
      "FLAG": "tim",
-     "Payload": "GET / HTTP/1.1[crlf]Host:[random=d225b5hzy03mwb.cloudfront.net;d3rp37g4j5qmsu.cloudfront.net][crlf]Upgrade:Websocket[crlf]Connection:Upgrade[crlf][crlf]",
+     "Payload": "GET / HTTP/1.1[crlf]Host:[rotate=d2mumcr9vfnfl1.cloudfront.net;d225b5hzy03mwb.cloudfront.net;d3rp37g4j5qmsu.cloudfront.net][crlf]Upgrade:Websocket[crlf]Connection:Upgrade,Keep-Alive[crlf][crlf]",
      "SNI": "",
      "TlsIP": "",
      "ProxyIP": "d2mgshajq5bsl0.cloudfront.net",
@@ -242,7 +282,7 @@
    { 
      "Name": "TIM TLS Créditos Válidos AM",
      "FLAG": "tim", 
-     "Payload": "GET / HTTP/1.1[crlf]Host:[random=d225b5hzy03mwb.cloudfront.net;d3rp37g4j5qmsu.cloudfront.net][crlf]Upgrade:Websocket[crlf]Connection:Upgrade[crlf][crlf]",
+     "Payload": "GET / HTTP/1.1[crlf]Host:[rotate=d2mumcr9vfnfl1.cloudfront.net;d225b5hzy03mwb.cloudfront.net;d3rp37g4j5qmsu.cloudfront.net][crlf]Upgrade:Websocket[crlf]Connection:Upgrade,Keep-Alive[crlf][crlf]",
      "SNI": "d2mgshajq5bsl0.cloudfront.net",
      "TlsIP": "d2mgshajq5bsl0.cloudfront.net",
      "ProxyIP": "",
@@ -282,7 +322,7 @@
    { 
      "Name": "Claro Direct 4 (Todos os DDD's)",
      "FLAG": "claro",
-     "Payload": "GET wss://[random=d225b5hzy03mwb.cloudfront.net;d3rp37g4j5qmsu.cloudfront.net]/ HTTP/1.1[crlf]Host: descomplica.com.br[crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
+     "Payload": "GET wss://[rotate=d2mumcr9vfnfl1.cloudfront.net;d225b5hzy03mwb.cloudfront.net;d3rp37g4j5qmsu.cloudfront.net]/ HTTP/1.1[crlf]Host: descomplica.com.br[crlf]Upgrade: Websocket[crlf]Connection: Upgrade,Keep-Alive[crlf][crlf]",
      "SNI": "",
      "TlsIP": "",
      "ProxyIP": "descomplica.com.br",
@@ -292,7 +332,7 @@
    { 
      "Name": "Claro Direct 5 (Todos os DDD's)",
      "FLAG": "claro",
-     "Payload": "GET wss://[random=d225b5hzy03mwb.cloudfront.net;d3rp37g4j5qmsu.cloudfront.net]/ HTTP/1.1[crlf]Host: metadatadb.lab.smartcontent.clarobrasil.mobi[crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
+     "Payload": "GET wss://[rotate=d2mumcr9vfnfl1.cloudfront.net;d225b5hzy03mwb.cloudfront.net;d3rp37g4j5qmsu.cloudfront.net]/ HTTP/1.1[crlf]Host: metadatadb.lab.smartcontent.clarobrasil.mobi[crlf]Upgrade: Websocket[crlf]Connection: Upgrade,Keep-Alive[crlf][crlf]",
      "SNI": "",
      "TlsIP": "",
      "ProxyIP": "metadatadb.lab.smartcontent.clarobrasil.mobi",
@@ -348,6 +388,26 @@
      "ProxyIP": "",
      "ProxyPort": "",
      "Info": "Tlsws" 
-   } 
+   },
+   { 
+     "Name": "OI DIRECT(Todos os DDDs)",
+     "FLAG": "oi",
+     "Payload": "GET / HTTP/1.1[crlf]Host:[rotate=d2mumcr9vfnfl1.cloudfront.net;d225b5hzy03mwb.cloudfront.net;d3rp37g4j5qmsu.cloudfront.net][crlf]Upgrade:Websocket[crlf]Connection:Upgrade,Keep-Alive[crlf][crlf]",
+     "SNI": "",
+     "TlsIP": "",
+     "ProxyIP": "hbomax.onelink.me",
+     "ProxyPort": "80",
+     "Info": "Proxy" 
+   }, 
+   { 
+     "Name": "OI DIRECT 2(Todos os DDDs)",
+     "FLAG": "oi",
+     "Payload": "GET / HTTP/1.1[crlf]Host:[rotate=d2mumcr9vfnfl1.cloudfront.net;d225b5hzy03mwb.cloudfront.net;d3rp37g4j5qmsu.cloudfront.net][crlf]Upgrade:Websocket[crlf]Connection:Upgrade,Keep-Alive[crlf][crlf]",
+     "SNI": "",
+     "TlsIP": "",
+     "ProxyIP": "play.hbomax.com",
+     "ProxyPort": "80",
+     "Info": "Proxy" 
+   }
   ] 
 }
