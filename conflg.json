@@ -1,6 +1,6 @@
 { 
- "Version": "1.2.2", 
- "ReleaseNotes": "Nova Atualização Disponível - Otimização, Atualização de Rede, Vivo TLS,Vivo Direct 6 e Claro DIrect 6 adicionadas",
+ "Version": "1.2.3", 
+ "ReleaseNotes": "Nova Atualização Disponível - TIM Atualizada, Tim DIRECT NOVA Adicionada",
  "UrlUpdate": "https://raw.githubusercontent.com/testenet1/config.json/main/conflg.json",
  "Sms": "",
  "EmailFeedback": "testenetssh@gmail.com",
@@ -140,67 +140,17 @@
      "Info": "Tlsws" 
    },
    { 
-     "Name": "TIM DIRECT",
+     "Name": "TIM DIRECT NOVA",
      "FLAG": "tim",
      "Payload": "GET / HTTP/1.1[crlf]Host:[rotate=d3rp37g4j5qmsu.cloudfront.net;d225b5hzy03mwb.cloudfront.net;d1q70xumj3inw6.cloudfront.net][crlf]Upgrade:Websocket[crlf]Connection:Upgrade,Keep-Alive[crlf][crlf]",
      "SNI": "",
      "TlsIP": "",
-     "ProxyIP": "18.64.174.27",
+     "ProxyIP": "tim.sshlsvpn.tk",
      "ProxyPort": "80",
      "Info": "Proxy" 
-   }, 
-   { 
+   },  
+   {
      "Name": "TIM DIRECT 2",
-     "FLAG": "tim",
-     "Payload": "GET / HTTP/1.1[crlf]Host:[rotate=d3rp37g4j5qmsu.cloudfront.net;d225b5hzy03mwb.cloudfront.net;d1q70xumj3inw6.cloudfront.net][crlf]Upgrade:Websocket[crlf]Connection:Upgrade,Keep-Alive[crlf][crlf]",
-     "SNI": "",
-     "TlsIP": "",
-     "ProxyIP": "99.84.252.128",
-     "ProxyPort": "80",
-     "Info": "Proxy" 
-   }, 
-   { 
-     "Name": "TIM DIRECT 3",
-     "FLAG": "tim",
-     "Payload": "GET / HTTP/1.1[crlf]Host:[rotate=d3rp37g4j5qmsu.cloudfront.net;d225b5hzy03mwb.cloudfront.net;d1q70xumj3inw6.cloudfront.net][crlf]Upgrade:Websocket[crlf]Connection:Upgrade,Keep-Alive[crlf][crlf]",
-     "SNI": "",
-     "TlsIP": "",
-     "ProxyIP": "13.226.52.30",
-     "ProxyPort": "80",
-     "Info": "Proxy" 
-   }, 
-   { 
-     "Name": "TIM DIRECT 4",
-     "FLAG": "tim",
-     "Payload": "GET / HTTP/1.1[crlf]Host:[rotate=d3rp37g4j5qmsu.cloudfront.net;d225b5hzy03mwb.cloudfront.net;d1q70xumj3inw6.cloudfront.net][crlf]Upgrade:Websocket[crlf]Connection:Upgrade,Keep-Alive[crlf][crlf]",
-     "SNI": "",
-     "TlsIP": "",
-     "ProxyIP": "99.84.252.105",
-     "ProxyPort": "80",
-     "Info": "Proxy" 
-   },
-   { 
-     "Name": "TIM DIRECT 5",
-     "FLAG": "tim",
-     "Payload": "GET / HTTP/1.1[crlf]Host:[rotate=d3rp37g4j5qmsu.cloudfront.net;d225b5hzy03mwb.cloudfront.net;d1q70xumj3inw6.cloudfront.net][crlf]Upgrade:Websocket[crlf]Connection:Upgrade,Keep-Alive[crlf][crlf]",
-     "SNI": "",
-     "TlsIP": "",
-     "ProxyIP": "65.8.248.59",
-     "ProxyPort": "80",
-     "Info": "Proxy" 
-   },
-   { 
-     "Name": "TIM DIRECT 6",
-     "FLAG": "tim",
-     "Payload": "GET / HTTP/1.1[crlf]Host:[rotate=d3rp37g4j5qmsu.cloudfront.net;d225b5hzy03mwb.cloudfront.net;d1q70xumj3inw6.cloudfront.net][crlf]Upgrade:Websocket[crlf]Connection:Upgrade,Keep-Alive[crlf][crlf]",
-     "SNI": "",
-     "TlsIP": "",
-     "ProxyIP": "pos.tim.com.br",
-     "ProxyPort": "80",
-     "Info": "Proxy" 
-   },
-   { 
-     "Name": "TIM DIRECT 7",
      "FLAG": "tim",
      "Payload": "BASELINE-CONTROL wss://pre-onboarding-p.c6bank.app/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Referer: google.com[crlf][crlf]",
      "SNI": "",
@@ -208,17 +158,7 @@
      "ProxyIP": "nu.sshls.tk",
      "ProxyPort": "80",
      "Info": "Proxy" 
-   }, 
-    { 
-     "Name": "TIM DIRECT 8",
-     "FLAG": "tim",
-     "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Referer: google.com[crlf][crlf]",
-     "SNI": "",
-     "TlsIP": "",
-     "ProxyIP": "vivo11.sshlsvpn.tk",
-     "ProxyPort": "80",
-     "Info": "Proxy" 
-   }, 
+   },  
    { 
      "Name": "TIM DIRECT Modo Avião",
      "FLAG": "tim",
@@ -228,26 +168,6 @@
      "ProxyIP": "nu.sshls.tk",
      "ProxyPort": "80",
      "Info": "Proxy" 
-   }, 
-   { 
-     "Name": "TIM DIRECT Créditos Válidos AM",
-     "FLAG": "tim",
-     "Payload": "GET / HTTP/1.1[crlf]Host:[rotate=d3rp37g4j5qmsu.cloudfront.net;d225b5hzy03mwb.cloudfront.net;d1q70xumj3inw6.cloudfront.net][crlf]Upgrade:Websocket[crlf]Connection:Upgrade,Keep-Alive[crlf][crlf]",
-     "SNI": "",
-     "TlsIP": "",
-     "ProxyIP": "d2mgshajq5bsl0.cloudfront.net",
-     "ProxyPort": "80",
-     "Info": "Proxy" 
-   },
-   { 
-     "Name": "TIM TLS Créditos Válidos AM",
-     "FLAG": "tim", 
-     "Payload": "GET / HTTP/1.1[crlf]Host:[rotate=d3rp37g4j5qmsu.cloudfront.net;d225b5hzy03mwb.cloudfront.net;d1q70xumj3inw6.cloudfront.net][crlf]Upgrade:Websocket[crlf]Connection:Upgrade,Keep-Alive[crlf][crlf]",
-     "SNI": "d2mgshajq5bsl0.cloudfront.net",
-     "TlsIP": "d2mgshajq5bsl0.cloudfront.net",
-     "ProxyIP": "",
-     "ProxyPort": "",
-     "Info": "Tlsws" 
    }, 
    { 
      "Name": "Claro Direct (Alguns os DDD's)",
