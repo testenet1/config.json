@@ -52,7 +52,7 @@
    { 
      "Name": "VIVO DIRECT NOVA (Todos os DDD's)",
      "FLAG": "vivo",
-     "Payload": "GET / HTTP/1.1[crlf]Host:[app_host][crlf][crlf]Upgrade:Websocket[crlf]Connection:Keep-Alive[crlf][crlf]",
+     "Payload": "GET / HTTP/1.1[crlf]Host:[app_host][crlf]Upgrade:Websocket[crlf]Connection:Keep-Alive[crlf][crlf]",
      "SNI": "",
      "TlsIP": "",
      "ProxyIP": "104.16.51.111",
@@ -62,7 +62,7 @@
    { 
      "Name": "VIVO DIRECT NOVA 2 (Todos os DDD's)",
      "FLAG": "vivo",
-     "Payload": "GET / HTTP/1.1[crlf]Host:[app_host][crlf][crlf]Upgrade:Websocket[crlf]Connection:Keep-Alive[crlf][crlf]",
+     "Payload": "GET / HTTP/1.1[crlf]Host:[app_host][crlf]Upgrade:Websocket[crlf]Connection:Keep-Alive[crlf][crlf]",
      "SNI": "",
      "TlsIP": "",
      "ProxyIP": "104.16.53.111",
