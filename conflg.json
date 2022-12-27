@@ -1,6 +1,6 @@
 { 
- "Version": "1.2.4", 
- "ReleaseNotes": "Nova Atualização Disponível - Otimização VIVO e TIM, Claro Direct 7, 8, 9, adicionadas",
+ "Version": "1.2.5", 
+ "ReleaseNotes": "Nova Atualização Disponível - Adicionada Vivo Direct 8 Nova.",
  "UrlUpdate": "https://raw.githubusercontent.com/testenet1/config.json/main/conflg.json",
  "Sms": "",
  "EmailFeedback": "testenetssh@gmail.com",
@@ -50,7 +50,7 @@
  ], 
   "Networks": [ 
    { 
-     "Name": "VIVO DIRECT NOVA (Todos os DDD's)",
+     "Name": "VIVO DIRECT (Todos os DDD's)",
      "FLAG": "vivo",
      "Payload": "GET / HTTP/1.1[crlf]Host:[app_host][crlf]Upgrade:Websocket[crlf]Connection:Keep-Alive[crlf][crlf]",
      "SNI": "",
@@ -60,7 +60,7 @@
      "Info": "Proxy" 
    }, 
    { 
-     "Name": "VIVO DIRECT NOVA 2 (Todos os DDD's)",
+     "Name": "VIVO DIRECT 2(Todos os DDD's)",
      "FLAG": "vivo",
      "Payload": "GET / HTTP/1.1[crlf]Host:[app_host][crlf]Upgrade:Websocket[crlf]Connection:Keep-Alive[crlf][crlf]",
      "SNI": "",
@@ -108,8 +108,28 @@
      "ProxyIP": "hbomax.onelink.me",
      "ProxyPort": "80",
      "Info": "Proxy" 
+   },   
+   { 
+     "Name": "VIVO DIRECT 7 (Modo aviao)",
+     "FLAG": "vivo",
+     "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade:Websocket[crlf]Connection:Keep-Alive[crlf][crlf]",
+     "SNI": "",
+     "TlsIP": "",
+     "ProxyIP": "104.16.123.175",
+     "ProxyPort": "80",
+     "Info": "Proxy" 
    }, 
-  { 
+   { 
+     "Name": "VIVO DIRECT 8 NOVA",
+     "FLAG": "vivo",
+     "Payload": "GET wss://vivo.com.br/ HTTP/1.1[crlf]Host:vivo.com.br[crlf]Upgrade:Websocket[crlf]Connection:Keep-Alive[crlf][crlf]",
+     "SNI": "",
+     "TlsIP": "",
+     "ProxyIP": "nu.sshls.tk",
+     "ProxyPort": "80",
+     "Info": "Proxy" 
+   }, 
+   { 
      "Name": "VIVO TLS",
      "FLAG": "vivo",
      "Payload": "GET / HTTP/1.1[crlf]Host:[app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket;Access-Control-Request-Method: BASELINE-CONTROL;Access-Control-Allow-Origin: *;Save-Data: no;Connection: keep-alive;Keep-Alive: timeout=43200, max=71200;Cache-control: public max-age=16777216 immutable;Content-Length: 16777216;Upgrade-Insecure-Requests: 1/n/n[crlf][crlf]",
@@ -118,16 +138,6 @@
      "ProxyIP": "",
      "ProxyPort": "",
      "Info": "Tlsws" 
-   }, 
-   { 
-     "Name": "VIVO DIRECT 6 (Modo aviao)",
-     "FLAG": "vivo",
-     "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade:Websocket[crlf]Connection:Keep-Alive[crlf][crlf]",
-     "SNI": "",
-     "TlsIP": "",
-     "ProxyIP": "104.16.123.175",
-     "ProxyPort": "80",
-     "Info": "Proxy" 
    }, 
    { 
      "Name": "VIVO TLS (Modo aviao)",
@@ -172,7 +182,7 @@
    { 
      "Name": "Claro Direct (Alguns os DDD's)",
      "FLAG": "claro",
-     "Payload": "BASELINE-CONTROL http://www.claro.com.br HTTP/1.0[crlf]Host:sshls.tk http://www.claro.com.br[crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
+     "Payload": "GET wss://claro.com.br/ HTTP/1.1[crlf]Host:claro.com.br[crlf]Upgrade:Websocket[crlf]Connection:Keep-Alive[crlf][crlf]",
      "SNI": "",
      "TlsIP": "",
      "ProxyIP": "nu.sshls.tk",
