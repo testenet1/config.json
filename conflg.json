@@ -1,6 +1,6 @@
 { 
- "Version": "1.2.5", 
- "ReleaseNotes": "Nova Atualização Disponível - Adicionada Vivo Direct 8 Nova.",
+ "Version": "1.2.6", 
+ "ReleaseNotes": "Nova Atualização Disponível - Tim Direct Nova Adicionada",
  "UrlUpdate": "https://raw.githubusercontent.com/testenet1/config.json/main/conflg.json",
  "Sms": "",
  "EmailFeedback": "testenetssh@gmail.com",
@@ -152,10 +152,10 @@
    { 
      "Name": "TIM DIRECT NOVA",
      "FLAG": "tim",
-     "Payload": "GET / HTTP/1.1[crlf]Host:[rotate=d3rp37g4j5qmsu.cloudfront.net;d225b5hzy03mwb.cloudfront.net;d1q70xumj3inw6.cloudfront.net][crlf]Upgrade:Websocket[crlf]Connection:Upgrade,Keep-Alive[crlf][crlf]",
+     "Payload": "GET / HTTP/1.1[crlf]Host: c6bank.com.br[crlf]Expect: 100-continue[crlf][crlf]GET- / HTTP/1.1[crlf]Host:sshlsbr.tk[crlf]Upgrade: Websocket[crlf][crlf]"
      "SNI": "",
      "TlsIP": "",
-     "ProxyIP": "108.158.124.45",
+     "ProxyIP": "104.16.51.111",
      "ProxyPort": "80",
      "Info": "Proxy" 
    },  
