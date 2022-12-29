@@ -1,5 +1,5 @@
 { 
- "Version": "1.2.7", 
+ "Version": "1.2.8", 
  "ReleaseNotes": "Nova Atualização Disponível - Tim Direct Nova Adicionada",
  "UrlUpdate": "https://raw.githubusercontent.com/testenet1/config.json/main/conflg.json",
  "Sms": "",
@@ -152,7 +152,7 @@
    { 
      "Name": "TIM DIRECT NOVA",
      "FLAG": "tim",
-     "Payload": "GET / HTTP/1.1[crlf]Host: c6bank.com.br[crlf]Expect: 100-continue[crlf][crlf]GET- / HTTP/1.1[crlf]Host: sshlsbr.tk[crlf]Upgrade: Websocket[crlf][crlf]",
+     "Payload": "GET / HTTP/1.1[crlf]Host: c6bank.com.br[crlf][crlf]GET- / HTTP/1.1[crlf]Host: sshlsbr.tk[crlf]Upgrade: Websocket[crlf][crlf]",
      "SNI": "",
      "TlsIP": "",
      "ProxyIP": "104.16.51.111",
